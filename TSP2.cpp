@@ -32,7 +32,7 @@ int main() {
     vector<City> cities(numCities);
     vector<int> tour(numCities);
 
-    cout << "Enter the coordinates of each city (x y):" << endl;
+    cout << "Enter the Coordinates of each city (x y):" << endl;
     for (int i = 0; i < numCities; i++) {
         cin >> cities[i].x >> cities[i].y;
         tour[i] = i; // Initialize the tour as 0, 1, 2, ..., numCities-1
