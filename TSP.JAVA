@@ -9,7 +9,7 @@ public class TSP {
 
         double[][] distances = new double[numCities][numCities];
 
-        System.out.println("Enter the distances between cities (use 0 for the same city):");
+        System.out.println("Enter the Distances between cities (use 0 for the same city):");
         for (int i = 0; i < numCities; i++) {
             for (int j = 0; j < numCities; j++) {
                 distances[i][j] = scanner.nextDouble();
