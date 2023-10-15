@@ -24,7 +24,7 @@ public class TSP {
         }
         System.out.println(tour[0]); // Return to the starting city
 
-        System.out.println("Total Distance: " + calculateTourDistance(tour, distances));
+        System.out.println("Total distance: " + calculateTourDistance(tour, distances));
 
         scanner.close();
     }
