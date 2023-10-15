@@ -22,7 +22,7 @@ public class TSP {
         for (int i = 0; i < numCities; i++) {
             System.out.print(tour[i] + " -> ");
         }
-        System.out.println(tour[0]); // Return to the starting city
+        System.out.println(tour[0]); // Return to the starting city...
 
         System.out.println("Total distance: " + calculateTourDistance(tour, distances));
 
