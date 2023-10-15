@@ -4,7 +4,7 @@ public class TSP {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Enter the number of Cities: ");
+        System.out.print("Enter the Number of Cities: ");
         int numCities = scanner.nextInt();
 
         double[][] distances = new double[numCities][numCities];
