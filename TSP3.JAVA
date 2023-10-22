@@ -44,7 +44,7 @@ public class TSP3 {
             }
         }
 
-        // Calculate the final result
+        // Calculate the final result to be shown
         double minDistance = Double.POSITIVE_INFINITY;
         for (int i = 0; i < numCities; i++) {
             if (i != startingCity) {
