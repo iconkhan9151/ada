@@ -36,7 +36,7 @@ public class TSE {
         System.out.println("The cost of the most efficient tour = " + ans);
     }
 
-    // Recursive function to calculate the TSP
+    // Recursive function to calculate the TSP using DP
     static int fun(int i, int mask) {
         if (mask == ((1 << i) | 3)) {
             return dist[1][i];
