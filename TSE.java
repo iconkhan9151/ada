@@ -12,7 +12,7 @@ public class TSE {
         Scanner scanner = new Scanner(System.in);
 
         // Get the number of cities from the user
-        System.out.print("Enter the Number of cities: ");
+        System.out.print("Enter the Number of Cities: ");
         n = scanner.nextInt();
 
         // Initialize the arrays with the correct size
